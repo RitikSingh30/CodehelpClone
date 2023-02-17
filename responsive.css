@@ -1,0 +1,85 @@
+@media screen and (max-width:1420px) {
+    .hero-section-right{
+        display:none;
+    }
+    .background-static-img{
+        display: block;
+        width: 50%;
+        height: 100%;
+        margin-top: 14rem;
+    }
+    .hero-section-left{
+        width: 50%;
+    }
+    .followers-info h2{
+        font-size: 3vw;
+    }
+    .followers-info h4{
+        font-size: 1vw;
+    }
+}
+
+@media screen and (max-width:1370px) {
+    .hero-section-left-button button{
+        font-size: 2vw;
+    }
+    .hero-section-heading {
+        font-size: 4vw;
+    }
+    .hero-section-para{
+        font-size: 2vw;
+    }
+    .background-static-img{
+        min-width: 400px;
+    }
+    .hero-section-left-button{
+        flex-wrap: wrap;
+    }
+    .hero-section-left{
+        max-width: 540px;
+    }
+}
+
+@media screen and (max-width:920px) {
+    .navigation-link{
+        display: none;
+    }
+    .navbar-buttons{
+        display: none;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .main-page{
+        height: 110vh;
+    }
+    .hero-section-container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .background-static-img{
+        min-width: 0 ;
+        max-width: 560px;
+        width: 100%;
+    }
+    .hero-section-left{
+        width: 100%;
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:312px) {
+    .hero-section-left-button button{
+        font-size: 3vw;
+    }
+    .hero-section-left-button{
+        justify-content: center;
+    }
+    .hero-section-left-student-info{
+        display: none;
+    }
+}
+
