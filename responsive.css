@@ -38,6 +38,58 @@
     .hero-section-left{
         max-width: 540px;
     }
+    .course-section-main{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .course-info-1{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .student-review-detail-section{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .cut-part{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:1150px) {
+    .main-page{
+        height: 100%;
+    }
+    .followers-info{
+        padding: 4rem 3.5rem;
+    }
+    .circle-section-main-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .circle-animation {
+        position: relative;
+        left: 0rem;
+        top: -4rem;
+    }
+    .student-talk{
+        width: 100%;        
+    }
+    .footer-main-section > div:first-child{
+        padding-left: 0;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+    }
+    .footer-left-margin{
+        margin-left: 0;
+    }
+    .footer-logo-div-4{
+        border: none;
+    }
+
 }
 
 @media screen and (max-width:920px) {
@@ -47,11 +99,30 @@
     .navbar-buttons{
         display: none;
     }
+    .followers-info{
+        padding: 2rem 0.5rem;
+        justify-content: space-evenly;
+    }
+    .followers-info div{
+        padding: 0 3rem;
+    }
+    .why-code-grid{
+        grid-template-columns: 1fr;
+        margin: 3rem auto ;
+    }
+    .join-coding-family-main{
+        width: 80%;
+    }
+    .join-coding-family-main > div:nth-child(2){
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        gap: 2rem;
+    }
 }
 
 @media screen and (max-width:760px) {
     .main-page{
-        height: 110vh;
+        height: 125%;
     }
     .hero-section-container{
         flex-direction: column-reverse;
@@ -69,9 +140,112 @@
         flex-direction: column;
         align-items: center;
     }
+    .followers-info{
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    .followers-info div{
+        border: none;
+    }
+    .followers-info h2{
+        font-size: 5vw;
+    }
+    .followers-info h4{
+        font-size: 3vw;
+    }
+    .followers-info img:nth-child(1){
+        width: 8rem;
+    }
+    
+    .followers-info img:nth-child(2){
+        width: 8rem;
+    }
+    
+    .followers-info img:nth-child(3){
+        width: 5rem;
+    }
+    
+    .followers-info img:nth-child(4){
+        width: 5rem;
+    }
+    .footer-main-section{
+        width: 100%;
+    }
+    .footer-logo-div-3{
+        padding-right: 0;
+    }
 }
 
+@media screen and (max-width:560px){
+    .instructor-info > div:nth-child(2){
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+    .instructor-info > div:nth-child(2) h2{
+        text-align: center;
+    }
+    .instructor-info > div:nth-child(5){
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .circle-animation {
+        position: relative;
+        left: -1rem;
+        top: 0rem;
+    }
+    .outer-circle svg{
+        transform: scale(4.2) translate(3.3rem,2.5rem);
+
+    }
+    .inner-circle svg{
+        transform: scale(3.1) translate(3.4rem,-1.1rem);
+    }
+    .outer-circle img {
+        top: 64px;
+        left: 98px;
+        width: 45%;
+    }
+    .inner-circle img {
+        top: -92px;
+        left: 88px;
+        width: 50%;
+    }
+    .footer-logo-div-3{
+        padding-left: 0;
+    }
+    .footer-logo-div-4{
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .course-info-1 div{
+        max-width: 233px;
+    }
+    .course-info-1 div img{
+        max-width: 200px;
+    }
+    .student-review-head{
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .student-talk > div:nth-child(2){
+        flex-direction: column;
+    }
+    .student-talk-name-detail{
+        flex-direction: column;
+        align-items: center;
+    }
+    .join-coding-family-main > div:nth-child(2){
+        justify-content: center;
+    }
+}
 @media screen and (max-width:312px) {
+    .main-page{
+        height: 100%;
+    }
     .hero-section-left-button button{
         font-size: 3vw;
     }
@@ -81,5 +255,17 @@
     .hero-section-left-student-info{
         display: none;
     }
+    .why-code-help{
+        padding: 1.5rem 0;
+    }
+    .why-code-main > div:nth-child(1) h2{
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+    }
+    .instructor-info > div:nth-child(4) > img{
+        width: 84%;
+        margin: 0 auto;
+    }
+    
 }
 
