@@ -92,7 +92,7 @@ body{
 
 /* hero section  */
 .hero-section{
-    background-image: url(images/Hero-section-background-image.svg);
+    background-image: url(./Hero-section-background-image.svg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
